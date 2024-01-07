@@ -8,6 +8,8 @@ uniapp Android 原生插件, 扩展 uniapp Android App 端能力。
 
 仿微信应用内相机, 主要目的是解决 uniapp 项目在部分机型中, 调用系统拍摄功能闪退问题，见 [应用闪退分析与 uniapp 安卓原生插件开发]。
 
+![cameraX gif](https://qkc148.bvimg.com/18470/a7b0db6a8f7131b6.gif)
+
 添加依赖：
 
 Android Studio 导入此项目中的 `camera` 模块：
@@ -44,6 +46,8 @@ cameraX.capture(
 ### NotifyModule
 
 通知模块，使用 `Toast` 模拟系统自带通知，可以做到在应用外弹出提示的效果。
+
+![notify](http://qkc148.bvimg.com/18470/932cf2370da9d520.gif)
 
 引入方式与 `CameraX` 类似。
 

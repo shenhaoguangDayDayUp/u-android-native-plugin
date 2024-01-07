@@ -1,5 +1,5 @@
 # Built application 文件
-*.apk
+app/**/*.apk
 *.ap_
 
 # ART/Dalvik VM 文件
